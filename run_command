@@ -1,0 +1,6 @@
+python run_summarization.py --mode=decode --data_path=/home/anindya/Documents/Text_sum/finished_files/chunked/val_* --vocab_path=/home/anindya/Documents/Text_sum/finished_files/vocab --log_root=/home/anindya/Documents/Text_sum/ --exp_name=myexperiment
+
+will create summary in /myexperiments/decode_val_400*/
+where decode files give list of predicted summary.
+
+where reference file gives all the list of corresponding reference summary or true summary..
